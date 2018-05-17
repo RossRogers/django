@@ -20,7 +20,7 @@ class DatabaseOperations(BaseDatabaseOperations):
         'IntegerField': 'signed integer',
         'BigIntegerField': 'signed integer',
         'SmallIntegerField': 'signed integer',
-        'FloatField': 'signed',
+        'FloatField': 'decimal(10,6)',
         'PositiveIntegerField': 'unsigned integer',
         'PositiveSmallIntegerField': 'unsigned integer',
     }
